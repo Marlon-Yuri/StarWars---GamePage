@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Sover;
+}
+header{
+  width: 100% ;
+  height: 52rem;
+  background-image: url(/assets/star\ uó\ topo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.kylo{
+    position: absolute;
+    left:13.5rem;
+    top: 0.2rem;
+    z-index: 5;
+}
+.star{
+    position: absolute;
+    left: 24.7rem;
+    top:28.5rem;
+}
+.wars{
+    position: absolute;
+    left:79rem;
+    top: 28.5rem;
+
+}
+main{
+    width: 100%;
+    background-image: url(/assets/Retângulo\ 2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.download{
+    width: 24.5rem;
+    height: 35.5rem;
+    background-image: url(/assets/strom\ trupe\ red.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 59.5rem;
+    left: 18rem;
+    z-index: 15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 30px;
+    color: whitesmoke;
+    display: flex;
+}
+.p1{
+    font-size:15px;
+    color: whitesmoke;
+    flex-wrap: wrap;
+}
+.p2{
+    border: solid 1px whitesmoke;
+    padding: 2px 1px 2px 1px;
+    font-size:17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: whitesmoke;
+    border-radius: 7px;
+}
+.legion{
+    position: absolute;
+    right: 25rem;
+    top: 40rem;
+}
+.line{
+    width: 75%;
+    height: 0.5rem;
+    background-color: gray;
+    position: absolute;
+    bottom: 53rem;
+    left: 18rem;
+}
+.sithius{
+    position: absolute;
+    top: 41rem;
+    left: 17rem;
+    z-index: 20;
+    
+}
+.sithius:hover{
+    opacity: 90%;
+    
+}
+.rey{
+    position: absolute;
+    top: 47.5rem;
+    right: 13rem;
+    z-index: 20;
+}
+.rey:hover{
+    opacity: 90%;
+}
+.about{
+    position: absolute;
+    right: 15.2rem;
+    bottom: 59.5rem;
+}
+.main2{
+    width: 100%;
+    height: 146rem;
+    position: absolute;
+    background-image: url(/assets/Retângulo\ 3.svg);
+    top: 91.4rem;
+}
+.atributos{
+        position: absolute;
+        left: 16rem;
+        top: 11rem;
+        
+}    
+.mainh1{
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+}
+.img1{
+    position: absolute;
+    top: 21rem;
+    left: 7rem;
+}
+.list-title{
+    position: absolute;
+    border: solid 2px blue ;
+    width: 12rem;
+    height: 6rem;
+    z-index: 20;
+    left: 66rem;
+    bottom: 28rem;
+}
+.imgline1{
+    position: absolute;
+    left:58.7rem;
+    top: 21rem;
+}
+.imgline2{
+    position: absolute;
+    left:58.7rem;
+    top: 36.7rem;
+}
+.hierarquia{
+    position: absolute;
+    left: 7.3rem;
+    top: 55.5rem;
+    
+}
+.list{
+    width: 20rem;
+    height: 10rem;
+    position: absolute;
+    border: solid 2px red;
+    z-index: 40;
+}   
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.txt{
+    position: absolute;
+    bottom:23rem;
+    right: 17rem;
+    text-align: justify;
+}
+.how{
+    position: absolute;
+    top: 225rem;
+    left: 50rem;
+}
+.how2{
+    font-size: 3rem;
+    font-weight: 800;
+    color: whitesmoke;
+}
