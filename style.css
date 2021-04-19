@@ -12,7 +12,7 @@ body{
 header{
   width: 100% ;
   height: 52rem;
-  background-image: url(/assets/star\ uó\ topo.png);
+  background-image: url(assets/star\ uó\ topo.png);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -36,7 +36,7 @@ header{
 }
 main{
     width: 100%;
-    background-image: url(/assets/Retângulo\ 2.svg);
+    background-image: url(assets/Retângulo\ 2.svg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -44,7 +44,7 @@ main{
 .download{
     width: 24.5rem;
     height: 35.5rem;
-    background-image: url(/assets/strom\ trupe\ red.png);
+    background-image: url(assets/strom\ trupe\ red.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -120,7 +120,7 @@ h1{
     width: 100%;
     height: 146rem;
     position: absolute;
-    background-image: url(/assets/Retângulo\ 3.svg);
+    background-image: url(assets/Retângulo\ 3.svg);
     top: 91.4rem;
 }
 .atributos{
