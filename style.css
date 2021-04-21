@@ -3,250 +3,211 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+header figure{
+    height: 100%;   
     width: 100%;
-    height: 380rem;
+   
 }
-
-
+.header-box{
+    display: flex;
+    height: 100%;   
+    justify-content: center;
+    align-items: center;
+}
 header{
-  width: 100% ;
-  height: 52rem;
-  background-image: url(assets/star\ uó\ topo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-
+    position: relative;
+    background-image: url(/assets/star\ uó\ topo@2x.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    height:43vw;
+    width: 100%;
+    
+    
 }
+
 .kylo{
+    width: 70vw;
     position: absolute;
-    left:13.5rem;
-    top: 0.2rem;
+    left: 10%;
+    top: -0.5%;
     z-index: 5;
+    
 }
 .star{
     position: absolute;
-    left: 24.7rem;
-    top:28.5rem;
+    top: 56.5%;
+    left: 19.8%;
+    width: 23vw;
 }
 .wars{
     position: absolute;
-    left:79rem;
-    top: 28.5rem;
-
-}
-main{
-    width: 100%;
-    background-image: url(assets/Retângulo\ 2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.download{
-    width: 24.5rem;
-    height: 35.5rem;
-    background-image: url(assets/strom\ trupe\ red.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    bottom: 59.5rem;
-    left: 18rem;
-    z-index: 15;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-h1{
-    text-transform: uppercase;
-    font-weight: bolder;
-    font-size: 30px;
-    color: whitesmoke;
-    display: flex;
-}
-.p1{
-    font-size:15px;
-    color: whitesmoke;
-    flex-wrap: wrap;
-}
-.p2{
-    border: solid 1px whitesmoke;
-    padding: 2px 1px 2px 1px;
-    font-size:17px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: whitesmoke;
-    border-radius: 7px;
+    top: 56.5%;
+    left: 65.3%;
+    width: 23vw;
 }
 .legion{
-    position: absolute;
-    right: 25rem;
-    top: 40rem;
+   position: absolute;
+   top: 77.5%;
+   left: 78%;
+   width: 8vw;
 }
-.line{
-    width: 75%;
-    height: 0.5rem;
-    background-color: gray;
-    position: absolute;
-    bottom: 53rem;
-    left: 18rem;
+main{
+    height: 100%;
 }
-.sithius{
+.section{
+   display: flex;
+   justify-content: space-around;
+   
+}
+
+.box{
     position: absolute;
-    top: 41rem;
-    left: 17rem;
+    bottom: 64.5%;
     z-index: 20;
-    
-}
-.sithius:hover{
-    opacity: 90%;
-    
-}
-.rey{
-    position: absolute;
-    top: 47.5rem;
-    right: 13rem;
-    z-index: 20;
-}
-.rey:hover{
-    opacity: 90%;
-}
-.about{
-    position: absolute;
-    right: 15.2rem;
-    bottom: 59.5rem;
-}
-.main2{
-    width: 100%;
-    height: 146rem;
-    position: absolute;
-    background-image: url(assets/Retângulo\ 3.svg);
-    top: 91.4rem;
-}
-.atributos{
-        position: absolute;
-        left: 18.5rem;
-        top: 11rem;
-        
-}    
-.mainh1{
-    font-size: 2.5rem;
-    font-weight: 800;
-    font-family: 'Open Sans', sans-serif;
-}
-.img1{
-    position: absolute;
-    top: 21rem;
-    left: 12.3rem;
-}
-.list-title{
-    position: absolute;
-    border: solid 2px blue ;
-    width: 12rem;
-    height: 6rem;
-    z-index: 20;
-    left: 66rem;
-    bottom: 28rem;
-}
-.imgline1{
-    position: absolute;
-    left:64rem;
-    top: 21rem;
-}
-.imgline2{
-    position: absolute;
-    left:64rem;
-    top: 36.7rem;
-}
-.hierarquia{
-    position: absolute;
-    left: 12.8rem;
-    top: 55.5rem;
-    
-}
-.list{
-    width: 20rem;
-    height: 10rem;
-    position: absolute;
-    border: solid 2px red;
-    z-index: 40;
-}   
-ul{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-.txt{   
-    width: 750px;
-    position: absolute;
-    bottom:24rem;
-    right: 17rem;
-    text-align: justify;
-    color: blanchedalmond;
-    font-size: 20px;
-}
-.main-footer{
-    position: absolute;
-    width: 25rem;
-    height: 10rem;
-    bottom: 2rem;
-    font-weight:900;
-    left: 50rem;
-    color:whitesmoke;
-    font-size: 50px;
-    text-transform: uppercase;
-}
-.box-footer{
-    width: 76rem;
-    height: 55rem;
-    background-color: #FF5A56;
-    position: absolute;
-    top: 327rem;
-}
-.stormtrup{
-    position: absolute;
-    top: 263.5rem;
-    left: 11.3rem;
-}
-.vader{
-    position: absolute;
-    top: -8rem;
-    left: 63.3rem;
-}
-.app{
-    position: absolute;
-    text-transform: uppercase;
-    font-weight: bolder;
-    font-size: 50px;
-    left: 17.5rem;
-    top: 10rem;
-    color: #FFFFFF;
-}
-.text-footer{
-    position: absolute;
-    left: 17.5rem;
-    top: 17rem;
-    width: 34rem;
-    height: 6rem;
-}
-.text-footer p{
-    color:whitesmoke;
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
+    left: 14%;
+    width: 21vw;
+    height: 28vw;
+    background-image: url(/assets/strom\ trupe\ red.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
-.mobile{
-    position: absolute;
-    left: 17.3rem;
-    top: 24rem;
+main section{
+    width: 100%;
+    height: 100%;
+    
 }
-.line-footer{
-    width: 32.3rem;
-    height: 0.3rem;
-    background-color: chartreuse;
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.aboutbox{
     position: absolute;
-    top: 33rem;
-    left: 17.6rem;
+    bottom: 64%;
+    width: 39vw;
+    left: 50%;
+}
+.backimg{
+    position: relative;
+    height: 70vw;
+    background-image: url(/assets/sta\ uo\ robot.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.line{
+    position: absolute;
+    top: 42.5%;
+    left: 13.8%;
+    width: 74.7vw;
+    height: 0.5vh;
+    background-color: grey;
+}
+.sith img{
+    width: 100% ;
+          
+}
+.sith{
+    position: absolute;
+    z-index: 20;
+    top: 45%;
+    left: 13.5%;
+}
+.middle{
+   
+    display: flex;
+    position: relative;
+}
+.middle figure{
+    width: 40vw;
+}
+.rey{
+    position: relative;
+    
+}
+.rey img{
+    width: 52%;
+    z-index: 20;
+    position: absolute;
+    top: 48%;
+    left:173%;
+    
+}
+.main2{
+    display: flex;
+    position: relative;
+    height: 110vw;
+    width: 100%;
+    background-color:#2D2D2D;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+}
+.luke{
+    width: 39%;
+    top: 13.3%;
+    position: absolute;
+    left: 9%;
+}
+.luke img{
+    width: 100%;
+    height: 100%;
+}
+.line1{
+    position: absolute;
+    left: 48%;
+    top: 13.3%;
+    height: 7.2%;
+    width: 39.3%;
+    display: flex;
+    align-items: flex-start;
+}
+.line1 img{
+    width: 100%;
+    height: 100%;
+}
+.line2{
+    position: absolute;
+    left: 48%;
+    top: 24%;
+    height: 7.2%;
+    width: 39.3%;
+    display: flex;
+    align-items: flex-start;
+}
+.line2 img{
+    width: 100%;
+    height: 100%;
+}
+.imgbig{
+    position: absolute;
+    left: 9%;
+    top: 37.4%;
+    height: 7.2%;
+    width: 78%;
+    display: flex;
+    align-items: flex-start;
+
+}
+.imgbig img{
+    width: 100%;
+    height: 100%;
+
+}
+/**.sith{
+    position: absolute;
+    top: 20%;
+
+}
+.sith img{
+    width: 30%;
+}
+.imgs{
+    position: relative;
+    display: flex;
 }
