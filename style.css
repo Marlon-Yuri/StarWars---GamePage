@@ -16,7 +16,7 @@ header figure{
 }
 header{
     position: relative;
-    background-image: url(/assets/star\ uó\ topo@2x.png);
+    background-image: url(assets/star\ uó\ topo@2x.png);
     background-repeat: no-repeat;
     background-size:100%;
     height:43vw;
@@ -67,7 +67,7 @@ main{
     left: 14%;
     width: 21vw;
     height: 28vw;
-    background-image: url(/assets/strom\ trupe\ red.png);
+    background-image: url(assets/strom\ trupe\ red.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -92,7 +92,7 @@ main section{
 .backimg{
     position: relative;
     height: 70vw;
-    background-image: url(/assets/sta\ uo\ robot.png);
+    background-image: url(assets/sta\ uo\ robot.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -198,6 +198,25 @@ main section{
     width: 100%;
     height: 100%;
 
+}
+.h1-box{
+    position:relative;
+    height: 30%;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black;
+}
+h1{
+    position: absolute;
+    text-transform: uppercase;
+    border: solid red;
+    width: 30vw;
+    font-size: 100%;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
 }
 /**.sith{
     position: absolute;
