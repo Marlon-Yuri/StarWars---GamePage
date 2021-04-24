@@ -61,6 +61,7 @@ main{
 }
 
 .box{
+    display: flex;
     position: absolute;
     bottom: 64.5%;
     z-index: 20;
@@ -71,6 +72,36 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+.red-title{
+    position: absolute;
+    top:17%;
+    left: 26%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 50%;
+}
+.red-title h2{
+     font-size: 2.9vw;
+     color: white;
+     text-transform: uppercase;
+}
+.box-paragraph{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 55%;
+    left: 12%;
+    width: 74%;
+    height: 15%;
+}
+.box-paragraph p{
+    color: white;
+    font-weight: 500;
+    font-size: 1vw;
 }
 main section{
     width: 100%;
@@ -99,7 +130,7 @@ main section{
 .line{
     position: absolute;
     top: 42.5%;
-    left: 13.8%;
+    left: 14%;
     width: 74.7vw;
     height: 0.5vh;
     background-color: grey;
@@ -123,16 +154,15 @@ main section{
     width: 40vw;
 }
 .rey{
-    position: relative;
+    position: absolute;
+    display: flex;
+    left: 73.3%;
+    top: 47.5%;
+    z-index: 30;
     
 }
 .rey img{
-    width: 52%;
-    z-index: 20;
-    position: absolute;
-    top: 48%;
-    left:173%;
-    
+    width: 21vw;
 }
 .main2{
     display: flex;
@@ -199,25 +229,112 @@ main section{
     height: 100%;
 
 }
-.h1-box{
-    position:relative;
-    height: 30%;
-    width: 30vw;
+.container-list{
+    position: absolute;
+    left: 41%;
+    top: 48%;
+    width: 29%;
+    height: 44%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    
+    
+}
+
+.estrutura{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2.3vw;
+}
+
+.line-down{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2.3vw;
+}
+.list{
+   
+    position:absolute;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    font-size: 1.4vw;
+    width: 100%;
+    height: 60%;
+    justify-content: space-evenly;
+}
+.atributos{
+    position: absolute;
+    top: 4.5%;
+    display: flex;
+    left: 5.6%;
+    justify-content: center;
+    align-items: center;
+    height: 7%;
+    width: 30%;
+}
+.atributos h2{
+    color: white;
+    font-size: 2vw;
+    font-weight: 800;
+}
+.txt-main{
+    position: absolute;
+    top: 78%;
+    left: 41.7%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    border: solid black;
+    justify-content: flex-end;
+    width: 45%;
+    height: 7%;
 }
-h1{
+.txt-main h3{
+    font-size: 1vw;
+    color: #FFFFFF;
+    font-weight: 6;
+}
+.txt2{
+    display: flex;
+    justify-content: flex-end;
+}
+.how{
     position: absolute;
-    text-transform: uppercase;
-    border: solid red;
-    width: 30vw;
-    font-size: 100%;
-    font-weight: 800;
+    top:88%;
+    left:37%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 29%;
 }
+.how h2{
+    font-size: 2.3vw;
+    color:#FFFFFF ;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.storm-cape{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35%;
+    top: 82.7%;
+    width: 30vw;
+    left: 7%;
+    
+}
+.storm-cape img{
+    width: 25vw;
+}
+footer{
+    height: 130%;
+    width: 100%;
+}
+
 /**.sith{
     position: absolute;
     top: 20%;
@@ -230,3 +347,4 @@ h1{
     position: relative;
     display: flex;
 }
+
