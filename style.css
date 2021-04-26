@@ -486,6 +486,13 @@ footer{
     font-size: 0.8vw;
     width: 54%;
 }
+.options span{
+    display: flex;
+    justify-content: center;
+    font-size: 0.8vw;
+    width: 54%;
+}
+
 
 .line-first{
     width: 38%;
