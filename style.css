@@ -319,6 +319,7 @@ main section{
     justify-content: space-evenly;
 }
 .list p:hover{
+    line-height: 125%;
     cursor: pointer;
     display: flex;
     justify-content: flex-end;
@@ -451,10 +452,14 @@ footer{
 }
 .options h2{
     color: white;
+    font-size: 1.4vw;
 }
 .options h1{
     font-size: 2vw;
     font-weight: 900;
+}
+.options p{
+    font-size: 0.8vw;
 }
 .line-first{
     width: 40%;
