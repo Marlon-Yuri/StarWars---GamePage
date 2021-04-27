@@ -81,6 +81,14 @@ main{
     background-size: cover;
 
 }
+@media(max-width:600px){
+    .box{
+        width: 60%;
+        height: 70%;
+        left: 30%;
+        top: 8%;
+    }
+}
 .red-title{
     position: absolute;
     top:17%;
@@ -97,6 +105,11 @@ main{
      color: white;
      text-transform: uppercase;
 }
+@media(max-width:600px){
+    .box h2{
+        font-size: 7vw;
+    }
+}
 .box-paragraph{
     display: flex;
     justify-content: center;
@@ -111,6 +124,18 @@ main{
     color: white;
     font-weight: lighter;
     font-size: 0.9vw;
+}
+@media(max-width:600px){
+    .box p{ 
+    font-size: 3vw;
+    top: 90%;
+    
+    }
+    .box-paragraph{
+    top: 46%;
+    left: 15%;
+    width: 70%;
+    }
 }
 main section{
     width: 100%;
@@ -129,12 +154,19 @@ main section{
     width: 39vw;
     left: 50%;
 }
+
 .backimg{
     position: relative;
     height: 70vw;
     background-image: url(assets/sta\ uo\ robot.png);
     background-repeat: no-repeat;
     background-size: contain;
+}
+@media(max-width:600px){
+    .backimg{
+        height: 130vw;
+    }
+   
 }
 .line{
     position: absolute;
@@ -190,6 +222,11 @@ main section{
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+@media(max-width:600px){
+    .main2{
+        top: 30%;
+    }
 }
 .container{
     display: flex;
@@ -414,6 +451,9 @@ main section{
     font-size: 1vw;
     color: white;
 }
+.box button{
+    font-size: 1vw;
+}
 footer{
     position: relative;
     display: flex;
@@ -631,6 +671,18 @@ footer{
 .rodape p{
     font-size: 0.8vw;
 }
+@media(max-width:600px){
+    .legion{
+        width: 15%;
+    }
+    .about{
+        display: none;
+    }
+}
+
+
+
+
 /**.sith{
     position: absolute;
     top: 20%;
