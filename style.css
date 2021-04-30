@@ -164,18 +164,25 @@ main section{
 
 }
 .battlefront img{
-    width: 100%;
+    width: 21vw;
   
 }
 
+
 @media(max-width:600px){
     .battlefront{
-    top: 57.4%;
-    width: 55%;
+    top: 55%;
+    width: 56%;
+    height: 16%;
     left: 37.5%;
+    }
+    .battlefront img{
+        width: 55vw;
+        height: 100%;
     }
    
 }
+
 .battefront-title{
     display: flex;
     justify-content: center;
@@ -220,25 +227,25 @@ main section{
    
 }
 .battle-txt{
-    width: 30%;
+    width: 40%;
     position: absolute;
     top:24%;
-    left: 39.6%;
+    left: 30%;
     display: flex;
     align-items: center;
     align-items: flex-end;
     flex-direction: column;
-    height: 10%;
+    height: 12%;
 }
 .battle-txt span{
-    font-size: 1vw;
+    font-size: 1.1vw;
     font-weight: bolder lighter;
 }
 @media(max-width:600px){
     .battle-txt{
         top: 75%;
-        width: 72%;
-        left: 21.5%;
+        width: 75%;
+        left: 18.1%;
     }
     .battle-txt span{
         font-size: 3vw;
@@ -265,7 +272,7 @@ main section{
     position: absolute;
     top: 42.5%;
     left: 14%;
-    width: 74.7vw;
+    width: 77vw;
     height: 0.5vh;
     background-color: grey;
 }
@@ -354,7 +361,7 @@ main section{
      
 
 .luke{
-    width: 39%;
+    width: 38.6vw;
     top: 13.3%;
     position: absolute;
     left: 9%;
@@ -377,27 +384,34 @@ main section{
 .line1{
     position: absolute;
     left: 48%;
-    top: 13.3%;
+    top: 15.1%;
     height: 7.2%;
-    width: 39.3%;
+    width: 39.3vw;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 }
+
+
+.line1 img{
+    width: 19.2vw;
+    height: 100%;
+}
+
 @media(max-width:600px){
     .line1{
     flex-direction: column;
     top: 18.3%;
-    width: 80%;
     left: 10%;
- 
-    }
-}
+    width: 80vw;
+    height: 20%;
 
-.line1 img{
-    width: 100%;
-    height: 100%;
-}
+   }
+   .line1 img{
+       width: 80vw;
+   }
 
+   
+}
 .gun:hover{
     cursor: pointer;
     background-image: url(assets/Grupo\ novos\ graficos.svg);
@@ -431,26 +445,30 @@ main section{
 .line2{
     position: absolute;
     left: 48%;
-    top: 24%;
+    top: 25.8%;
     height: 7.2%;
-    width: 39.3%;
+    width: 39.3vw;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+}
+
+
+.line2 img{
+    width: 19.2vw;
+    height: 100%;
 }
 @media(max-width:600px){
     .line2{
     flex-direction: column;
-    top: 44.4%;
+    top: 44.6%;
     left: 10%;
     width: 80%;
- 
+    }
+    .line2 img{
+        width: 80vw;
     }
 }
 
-.line2 img{
-    width: 100%;
-    height: 100%;
-}
 .imgbig{
     position: absolute;
     left: 9%;
@@ -626,12 +644,13 @@ main section{
 }
 @media(max-width:600px){
     .how h2{
-        font-size: 3.3vw;
+        font-size: 3.4vw;
         
     }
     .how{
+        width: 30%;
         left: 56%;
-        top: 90.6%;
+        top: 91.4%;
     }
 }
 
@@ -664,24 +683,25 @@ main section{
 
 }
 .butao{
-    border: solid 0.5px white;
-    height: 8.7%;
+   
     display: flex;
-    width: 42%;
     align-items: center;
     justify-content: center;
     position: absolute;
     top:79%;
-    left: 31%;
-    border-radius: 7%;
+    left: 8%;
+    width: 18vw;
+    
    
 }
 .butao button{
+    border: solid 2.5px white;
+    border-radius: 8%;
     cursor: pointer;
-    width: 100%;
-    height: 100%;
+    width: 10vw;
+    height: 2.2vw;
     background-color: rgb(255,255,255, 0);
-    font-size: 1vw;
+    font-size: 0.5vw;
     color: white;
 }
 .box button{
@@ -689,8 +709,14 @@ main section{
 }
 @media(max-width:600px){
     .butao button{
-        font-size: 2.4vw;
+        width: 30vw;
+        height: 29%;
+        font-size: 4vw;
     }
+    .butao{
+        left: 35%;
+    }
+    
 }
 footer{
     position: relative;
@@ -723,15 +749,20 @@ footer{
     justify-content: center;
     align-items: center;
     width: 100%;
+    flex-direction: column;
     height: 28%;
     background-color: black;
 
-}.options button{
+}
+.options button{
     width: 100%;
     height: 100%;
     font-size: 1.5vw;
     color: white;
     background-color: black;
+}
+.box-download button{
+    font-family: "Sovereign" lighter;
 }
 .options button:hover{
     cursor: pointer;
@@ -749,6 +780,7 @@ footer{
     transition: box-shadow 1s ease;
    
 }
+
 .options h2{
     color: white;
     font-size: 1.4vw;
@@ -758,27 +790,62 @@ footer{
     font-size: 2vw;
     font-weight: 900;
 }
-.options p{
+
+.pbox{
     display: flex;
-    justify-content: flex-end;
-    font-size: 0.8vw;
-    width: 54%;
+    flex-direction: column;
+    align-items: center;
+    width: 10vw;
 }
-.options span{
+.pbox p{
+    font-size: 1vw;
+}
+.pbox1{
     display: flex;
-    justify-content: center;
-    font-size: 0.8vw;
-    width: 54%;
+    flex-direction: column;
+    align-items: center;
+    width: 10vw;
 }
-
-
-
+.pbox1 p{
+    font-size: 1vw;
+}
+.pbox2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10vw;
+}
+.pbox2 p{
+    font-size: 1vw;
+}
+.pbox3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10vw;
+}
+.pbox3 p{
+    font-size: 1vw;
+}
 .line-first{
+    position: absolute;
+    top: 99%;
     width: 38%;
     height: 2%;
     background-color:black;
 }
-
+@media(max-width:600px){
+    .pbox1{
+        width: 110%;
+        height: 30%;
+        position: absolute;
+        top: 55%;
+       
+    }
+    .pbox1 p{
+        font-size: 3.4vw;
+    }
+}
 .second{
     display: flex;
     flex-direction: column;
@@ -790,6 +857,18 @@ footer{
     top: 20%;
     position: absolute;
     left: 58%;
+}
+@media(max-width:600px){
+    .pbox2{
+        width: 110%;
+        height: 30%;
+        position: absolute;
+        top: 55%;
+        
+    }
+    .pbox2 p{
+        font-size: 3.4vw;
+    }
 }
 .third{
     display: flex;
@@ -804,6 +883,17 @@ footer{
     left: 80%;
 }
 @media(max-width:600px){
+    .pbox3{
+        width: 110%;
+        height: 30%;
+        position: absolute;
+        top: 55%;
+    }
+    .pbox3 p{
+        font-size: 3.4vw;
+    }
+}
+@media(max-width:600px){
     .first{
         width: 30%;
         height: 200%;
@@ -813,14 +903,23 @@ footer{
         
     }
     .first h1{
+        position: absolute;
         font-size: 6vw;
+        top: 2%;
+        font-family:"Gilroy";
+    }
+    .box-download{
+        position: absolute;
+        top: 27%;
+        width: 130%;
+        height: 27%;
     }
     .first span{
+        position: absolute;
+        top: 187%;
         font-size: 2.5vw;
-        width: 80%;
-    }
-    .line-first{
-        width: 20%;
+        width: 40%;
+        height: 10%;
     }
     .second{
         top: 160%;
@@ -829,6 +928,24 @@ footer{
         left: 50%;
 
     }
+    .second span{
+        position: absolute;
+        top: 189%;
+        font-size: 2.5vw;
+        width: 40%;
+        height: 10%;
+    }
+    .second h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 7.5%;
+        width: 10vw;
+        height: 19%;
+        font-size: 6vw;
+        font-family:"Gilroy";
+    }
     .third{
         width: 30%;
         height: 200%;
@@ -836,8 +953,31 @@ footer{
         left: 50%;
 
     }
+    .third span{
+        position: absolute;
+        top: 187%;
+        font-size: 2.5vw;
+        width: 40%;
+        height: 10%;
+    }
+    .third h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 7.5%;
+        width: 10vw;
+        height: 19%;
+        font-size: 6vw;
+        font-family:"Gilroy";
+    }
 }
-
+@media(max-width:600px){
+    .options button{
+        font-size: 2.5vw;
+    }
+    
+}
 .box-footer{
     background-color: #FF5A56;
     height: 39vw;
