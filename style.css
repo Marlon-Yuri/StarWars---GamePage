@@ -772,6 +772,7 @@ footer{
 }
 
 
+
 .line-first{
     width: 38%;
     height: 2%;
@@ -801,6 +802,40 @@ footer{
     top: 20%;
     position: absolute;
     left: 80%;
+}
+@media(max-width:600px){
+    .first{
+        width: 30%;
+        height: 200%;
+        left: 50%;
+        justify-content: space-evenly;
+        top: 2%;
+        
+    }
+    .first h1{
+        font-size: 6vw;
+    }
+    .first span{
+        font-size: 2.5vw;
+        width: 80%;
+    }
+    .line-first{
+        width: 20%;
+    }
+    .second{
+        top: 160%;
+        width: 30%;
+        height: 200%;
+        left: 50%;
+
+    }
+    .third{
+        width: 30%;
+        height: 200%;
+        top: 330%;
+        left: 50%;
+
+    }
 }
 
 .box-footer{
@@ -836,9 +871,9 @@ footer{
     }
     .vader{
      
-        top: 364%;
+        top: 365%;
         left: 10%;
-        width: 70%;
+        width: 73%;
     }
 }
 .app{
@@ -856,6 +891,17 @@ footer{
     font-weight: 800;
     color: white;
 }
+@media(max-width:600px){
+    .app{
+        
+        top: 150%;
+        width: 80%;
+        height: 45%;
+    }
+    .app h2{
+        font-size: 12vw;
+    }
+}
 .parag{
     left: 15%;
     bottom: 34%;
@@ -868,6 +914,19 @@ footer{
 .parag p{
     font-size: 0.9vw;
     color: white;
+}
+@media(max-width:600px){
+    .parag{
+
+        top: 190%;
+        width: 79%;
+        left: 11%;
+        height: 40%;
+    }
+    .parag p{
+        font-size: 3.7vw;
+        font-weight:lighter;
+    }
 }
 .apps{
     position: absolute;
@@ -883,6 +942,18 @@ footer{
     width: 10.5vw;
     margin: 1.5%;
 }
+@media(max-width:600px){
+    .apps{
+        top: 215%;
+        width: 80%;
+        height: 30%;
+        left: 11%;
+    }
+    .apps img{
+        width: 39vw;
+    }
+
+}
 .line-space{
     position: absolute;
     width: 22.4%;
@@ -890,6 +961,14 @@ footer{
     bottom: 24%;
     height: 0.3%;
     background-color: #D74430;
+}
+@media(max-width:600px){
+    .line-space{
+        top: 245%;
+        width: 80%;
+        height: 1.5%;
+        left: 11%;
+    }
 }
 .logo-footer{
     position: absolute;
@@ -902,6 +981,14 @@ footer{
 }
 .logo-footer img{
     width: 48%;
+}
+@media(max-width:600px){
+    .logo-footer{
+        top: 265%;
+        width: 80%;
+        height: 2%;
+        left: 11%;
+    }
 }
 .footer-footer{
     width: 23%;
@@ -916,6 +1003,18 @@ footer{
     color: white;
     font-size: 0.9vw;
 }
+@media(max-width:600px){
+    .footer-footer{
+        top: 288%;
+        width: 85%;
+        height: 29%;
+        left: 9%;
+    }
+    .footer-footer p{
+        font-size: 3.4vw;
+        
+    }
+}
 .rodape{
     width: 20%;
     position: absolute;
@@ -926,12 +1025,16 @@ footer{
     font-size: 0.8vw;
 }
 @media(max-width:600px){
-    .legion{
-        width: 15%;
+    .rodape{
+        width: 73%;
+        top: 428%;
+        left: 15%;
+        height: 20%;
     }
-    .about{
-        display: none;
+    .rodape p{
+        font-size: 2.3vw;
     }
+    
 }
 
 
