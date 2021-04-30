@@ -1176,22 +1176,27 @@ footer{
     }
     
 }
-
-
-
-
-/**.sith{
-    position: absolute;
-    top: 20%;
-
-}
-.sith img{
-    width: 30%;
-}
-.imgs{
-    position: relative;
+.footer-box{
     display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 7%;
+    top: 92%;
+    left: 65%;
+    width: 8vw;
 }
-
-ATENÇÃO NA ALTURA DO TRUPER COM CAPA, 
-GAMBIARRA PRA ABRIR O ESPAÇO EM BRANCO
+.footer-box p{
+    color: white;
+    font-size: 0.5vw;
+}
+@media(max-width:600px){
+    .footer-box{
+        left: 15%;
+        align-items: center;
+        width:40vw ;
+    }
+    .footer-box p{
+        font-size: 2vw;
+    }
+    
+}
